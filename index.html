@@ -75,7 +75,7 @@
         <br/>
          <button onclick="updateProduct('${product._id}')"> submit</button>
           
-           `
+           `;
            console.log(product)
        })
    
@@ -84,8 +84,8 @@
 
    function updateProduct(id){
        console.log('hit inside')
-       const p = document.getElementById('price').value;
-       const q = document.getElementById('quantity').value;
+       const price = document.getElementById('price').value;
+       const quantity = document.getElementById('quantity').value;
        const product = {id ,price ,quantity};
 
        console.log(product)
